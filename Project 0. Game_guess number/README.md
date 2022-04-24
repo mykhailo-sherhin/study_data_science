@@ -1,12 +1,12 @@
 # Project 0. Game: guess number
 
 ## Table of contents
-[1. Project description](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#project-description)  
-[2. What case are we solving?](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)    
-[3. Brief information about data](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
-[4. Project stages](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
-[5. Results](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
-[6. Conclusions](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)
+[1. Project description](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#1-project-description)  
+[2. What case are we solving?](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#2-what-case-are-we-solving)    
+[3. Brief information about data](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#3-brief-information-about-data)  
+[4. Project stages](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#4-project-stages)  
+[5. Results](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#5-results)  
+[6. Conclusions](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#6-conclusions)
 
 ### 1. Project description
 Guess specified by computer number per minimum attempts
