@@ -60,5 +60,6 @@ def score_game(predict_number) -> int:
     print(f"Your algorithm finds number in average per:{score} attempts")
     return score
 
-
-score_game(predict_number)
+if __name__ == "__main__":
+    # RUN
+    score_game(predict_number)
