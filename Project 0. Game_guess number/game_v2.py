@@ -12,7 +12,7 @@ def predict_number(number: int = 1) -> int:
         number (int, optional): Specified number. Defaults to 1.
 
     Returns:
-        int: Number of attemptsa
+        int: Number of attempts
     """
     count = 0
     predict_number = 50
@@ -57,7 +57,7 @@ def score_game(predict_number) -> int:
         count_ls.append(predict_number(number))
 
     score = int(np.mean(count_ls))
-    print(f."Your algorithm finds number in average per:{score} attempts")
+    print(f"Your algorithm finds number in average per:{score} attempts")
     return score
 
 
