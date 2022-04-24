@@ -1,20 +1,20 @@
 # Project 0. Game: guess number
 
 ## Table of contents
-[1. Project description](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
+[1. Project description](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#project-description)  
 [2. What case are we solving?](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)    
 [3. Brief information about data](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
 [4. Project stages](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
 [5. Results](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)  
 [6. Conclusions](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number)
 
-### Project description
+### 1. Project description
 Guess specified by computer number per minimum attempts
 
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
 
 
-### What case are we solving?
+### 2. What case are we solving?
 It is necessary to write program which guesses number per minimum number of attempts
 
 **Competition conditions**
@@ -30,25 +30,25 @@ We practise writing good code in Python
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
 
 
-### Brief information about data
+### 3. Brief information about data
 ....
 
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
 
 
-### Project stages
+### 4. Project stages
 ....
 
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
 
 
-### Results
+### 5. Results
 ....
 
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
 
 
-### Conclusions
+### 6. Conclusions
 ....
 
 :arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
