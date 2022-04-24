@@ -16,26 +16,26 @@ def predict_number(number: int = 1) -> int:
     """
     count = 0
     predict_number = 50
-    step_number = 50
+    variation_number = 50
 
     while True:
         count += 1
-        if step_number == 101:
-            step_number = 2
+        if variation_number == 101:
+            variation_number = 2
         else:
-            step_number //= 2
+            variation_number //= 2
     
         if predict_number > number:
-            predict_number -= step_number
+            predict_number -= variation_number
         
         elif predict_number < number:
-            predict_number += step_number
+            predict_number += variation_number
         
         else:
             break  # exit cycle if number was found
         
-        if step_number == 1:
-            step_number = 101
+        if variation_number == 1:
+            variation_number = 101
             
     return count
 
