@@ -1,57 +1,37 @@
-# Project 0. Game: guess number
+# Project 1. Анализ вакансий из HeadHunter
 
-## Table of contents
-[1. Project description](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#1-project-description)  
-[2. What case are we solving?](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#2-what-case-are-we-solving)    
-[3. Brief information about data](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#3-brief-information-about-data)  
-[4. Project stages](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#4-project-stages)  
-[5. Results](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#5-results)  
-[6. Conclusions](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#6-conclusions)
+## Оглавление
+[1. Описание проекта](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#1-project-description)  
+[2. Какой случай мы решаем?](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#2-what-case-are-we-solving)    
+[3. Краткая информация о данных](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#3-brief-information-about-data)  
+[4. Этапы проекта](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#4-project-stages)  
+[5. Результаты](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#5-results)  
+[6. Выводы](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#6-conclusions)
 
-### 1. Project description
-Guess specified by computer number per minimum attempts
+### 1. Описание проекта
+Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе.  
+Задачей проекта является попробовать свои силы в реальном Data Science-проекте.
+Предстоит решить часть настоящей бизнес-задачи и примерить роль аналитика в компании HeadHunter.
 
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
+### 2. Какой случай мы решаем?
+Прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить. В этом и состоит наша задача!
 
+### 3. Краткая информация о данных
+Данными является база резюме, выгруженная с сайта поиска вакансий hh.ru.  
+Файл с исходными данными вы можете скачать [здесь](https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view?usp=sharing)
 
-### 2. What case are we solving?
-It is necessary to write program which guesses number per minimum number of attempts
+### 4. Этапы проекта
+Наш проект состоит из четырёх частей:  
+* базовый анализ структуры данных
+* преобразование данных
+* разведывательный анализ
+* очистка данных
 
-**Competition conditions**
-- Computer specifies integer number from 1 to 100 and we should guess it. Under "guess" we understand "write program that will guess number"
-- Algorithm considers information about if random number is less or larger then our number
+### 5. Результаты
+Результаты находятся в [ноутбуке](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter/Project_1.ipynb)  
+Графики дополнительно сохранены в папке [graphs](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter/graphs)
 
-**Quality metrics**
-Results are evaluated by average number of attempts per 1000 tries
+### 6. Выводы
+Я испытал на себе основные этапы работы с данными на примере датасета о вакансиях и теперь не понаслышке знаю, как важно уметь правильно работать с данными.
 
-**What we practise**
-We practise writing good code in Python
-
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
-
-
-### 3. Brief information about data
-....
-
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
-
-
-### 4. Project stages
-....
-
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
-
-
-### 5. Results
-....
-
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
-
-
-### 6. Conclusions
-....
-
-:arrow_up:[ to table of contents](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%200.%20Game_guess%20number/README.md#table-of-contents)
-
-
-If information about this project is interesting or useful I will be thankful if you will mark repository and profile by ⭐️⭐️⭐️⭐️⭐️
+Если информация по этому проекту интересна или полезна для вас я буду благодарен если вы отметите репозиторий и профиль ⭐️⭐️⭐️⭐️⭐️
