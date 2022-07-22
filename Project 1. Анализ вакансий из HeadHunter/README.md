@@ -15,13 +15,17 @@
 
 :arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
-
 ### 2. Какой случай мы решаем?
-Прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить. В этом и состоит наша задача!
+Прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить.  
+В этом и состоит наша задача!
+
+:arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### 3. Краткая информация о данных
 Данными является база резюме, выгруженная с сайта поиска вакансий hh.ru.  
 Файл с исходными данными вы можете скачать [здесь](https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view?usp=sharing)
+
+:arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### 4. Этапы проекта
 Наш проект состоит из четырёх частей:  
@@ -30,12 +34,18 @@
 * разведывательный анализ
 * очистка данных
 
+:arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+
 ### 5. Результаты
 Результаты находятся в [ноутбуке](https://github.com/mykhailo-sherhin/study_data_science/blob/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter/Project_1.ipynb)  
 Графики дополнительно сохранены в папке [graphs](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter/graphs)
 
+:arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+
 ### 6. Выводы
 Я испытал на себе основные этапы работы с данными на примере датасета о вакансиях и теперь не понаслышке знаю, как важно уметь правильно работать с данными.
+
+:arrow_up:[к оглавлению](https://github.com/mykhailo-sherhin/study_data_science/tree/main/Project%201.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%B8%D0%B7%20HeadHunter#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 Если информация по этому проекту интересна или полезна для вас  
 я буду благодарен если вы отметите репозиторий и профиль ⭐️⭐️⭐️⭐️⭐️
