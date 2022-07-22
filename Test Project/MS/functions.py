@@ -2,7 +2,22 @@ import pandas as pd
 import numpy as np
 
 
-def outliers_iqr(data, feature, log_scale=False, left=1.5, right=1.5, log_add=1):
+def outliers_iqr(data, feature, left=1.5, right=1.5, log_scale=False, log_add=1):
+    """_summary_
+
+    Args:
+        data (DataFrame): incoming data
+        feature (str): признак, по которому ищутся выбросы
+        log_scale (bool, optional): _description_. Defaults to False.
+        left (float, optional): _description_. Defaults to 1.5.
+        right (float, optional): _description_. Defaults to 1.5.
+        log_add (int, optional): _description_. Defaults to 1.
+
+    Returns:
+        DataFrame: _description_
+        DataFrame: _descr
+        
+    """
     """
     Функция принимает на вход DataFrame и признак, по которому ищутся выбросы, а затем возвращает потенциальные выбросы,
     найденные с помощью метода Тьюки (межквартильного размаха), и очищенный от них датасет.
@@ -27,7 +42,7 @@ def outliers_iqr(data, feature, log_scale=False, left=1.5, right=1.5, log_add=1)
     return outliers, cleaned
 
 
-def outliers_z_score(data, feature, log_scale=False, left=3, right=3, log_add=1):
+def outliers_z_score(data, feature, left=3, right=3, log_scale=False, log_add=1):
     """
     Функция на вход она принимает DataFrame и признак, по которому ищутся выбросы. Метод Z-отклонений (метод сигм).
     В дополнение добавим в функцию возможность работы в логарифмическом масштабе: для этого введём аргумент log_scale.
