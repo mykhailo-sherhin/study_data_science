@@ -1,9 +1,27 @@
 import pandas as pd
 import numpy as np
+from chardet.universaldetector import UniversalDetector
+
+""" функции
+
+outliers_iqr
+    ищет выбросы с помощью метода Тьюки (межквартильного размаха)
+outliers_z_score
+    ищет выбросы с помощью метода Z-отклонений (метод сигм)
+low_information_columns
+    ищутся неинформативные признаки (в которых все значения уникальны или одинаковы)
+check_encoding
+    проверка кодировки файла    
+"""
 
 
 def outliers_iqr(data, feature, left=1.5, right=1.5, log_scale=False, log_add=1):
-    """_summary_
+    """
+    библиотеки:
+    import pandas as pd
+    import numpy as np
+    
+    _summary_
 
     Args:
         data (DataFrame): incoming data
@@ -44,6 +62,10 @@ def outliers_iqr(data, feature, left=1.5, right=1.5, log_scale=False, log_add=1)
 
 def outliers_z_score(data, feature, left=3, right=3, log_scale=False, log_add=1):
     """
+    библиотеки:
+    import pandas as pd
+    import numpy as np
+    
     Функция на вход она принимает DataFrame и признак, по которому ищутся выбросы. Метод Z-отклонений (метод сигм).
     В дополнение добавим в функцию возможность работы в логарифмическом масштабе: для этого введём аргумент log_scale.
     Если он равен True, то будем логарифмировать рассматриваемый признак, иначе — оставляем его в исходном виде.
@@ -68,6 +90,10 @@ def outliers_z_score(data, feature, left=3, right=3, log_scale=False, log_add=1)
 
 def low_information_columns(data, thresh=0.95):
     """
+    библиотеки:
+    import pandas as pd
+    import numpy as np
+    
     Функция принимает на вход DataFrame и порог, по которым ищутся неинформативные признаки (в которых все значения уникальны или одинаковы).
     Результат - список неинформативных колонок
     """
@@ -89,3 +115,25 @@ def low_information_columns(data, thresh=0.95):
             low_information_cols.append(col)
             #print(f'{col}: {round(nunique_ratio*100, 2)}% уникальных значений')
     return low_information_cols
+
+
+def check_encoding(path):
+    """
+    библиотеки:
+    from chardet.universaldetector import UniversalDetector
+    
+    проверка кодировки файла
+
+    Args:
+        path (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    detector = UniversalDetector()
+    with open(path, 'rb') as fh:
+        for line in fh:
+            detector.feed(line)
+            if detector.done:
+                break
+    return detector.close()['encoding']
