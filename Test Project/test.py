@@ -1,8 +1,5 @@
-import pandas as pd
+#a, b, c = 2, 5, 10
+a, b, c = 3, 5, 8
 
-countries = pd.Series(
-    data = ['Англия', 'Канада', 'США', 'Россия', 'Украина', 'Беларусь', 'Казахстан'],
-    index = ['UK', 'CA', 'US', 'RU', 'UA', 'BY', 'KZ'],
-    name = 'countries'
-)
-print(countries)
+result = (a^2 > b) and (a^2 > c)
+print(a^2)
